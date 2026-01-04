@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 
 export default function Auth() {
+const username1 = ["shaurya"];
+const password1 = ["Jddreddy9**"];
   const [isLogin, setIsLogin] = useState(true);
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');

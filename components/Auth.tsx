@@ -30,7 +30,7 @@ const password1 = ["Jddreddy9**"];
       return;
     }
 if(username1==username && password== password1){
-
+    return <AdminPage />;
 }
     try {
       const result = isLogin

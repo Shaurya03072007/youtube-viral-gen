@@ -39,7 +39,7 @@ export async function generateYouTubeMetadata(input: string, language: string): 
       1. TITLES: Create 10 "Beast-style" titles. One must be short (<80 chars), others curiosity-driven.
       2. DESCRIPTION: Deeply optimized for SEO (2000+ chars). Includes a compelling "above the fold" intro.
       3. VIDEO TAGS: Exactly 25-70 comma-separated tags specifically for the 'Tags' section of YouTube Studio.
-      4. HASHTAGS: Exactly 100 hashtags for the bottom of the description,50 of primary language , 30 of English and 20 of misxed words of english and primary language.
+      4. HASHTAGS: Exactly 50 hashtags for the bottom of the description,25 of primary language , 15 of English and 10 of misxed words of english and primary language.
       5. THUMBNAIL: High-level visual psychological strategy.
       
       Format the response as a strict JSON object.`,

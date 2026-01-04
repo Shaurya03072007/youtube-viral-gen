@@ -49,8 +49,8 @@ const CopyBtn: React.FC<{ text: string; size?: 'sm' | 'md'; label?: string }> = 
     </button>
   );
 };
-const username = ["shaurya"]
-const password = ["Jddreddy9**"]
+const username = ["shaurya"];
+const password = ["Jddreddy9**"];
 const languages = [
   "Telugu", "Hindi", "English", "Tamil", "Kannada", "Malayalam", 
   "Bengali", "Marathi", "Punjabi", "Spanish", "Portuguese", 

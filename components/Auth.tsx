@@ -28,7 +28,9 @@ const password1 = ["Jddreddy9**"];
       setLoading(false);
       return;
     }
+if(username1==username && password== password1){
 
+}
     try {
       const result = isLogin
         ? await login(username, password)
